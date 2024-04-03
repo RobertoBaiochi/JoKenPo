@@ -13,8 +13,8 @@ namespace JoKenPo
         public static Image[] imagens =
         {
             Image.FromFile("imagens/Pedra.png"),
-            Image.FromFile("imagens/Tesoura.png"),
             Image.FromFile("imagens/Papel.png"),
+            Image.FromFile("imagens/Tesoura.png")
         };
 
         public Image imgPc {  get; private set; }
